@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VideoPlatform")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b8976e38db4f2bcaa042f036a923332ff6379b8")]
 [assembly: System.Reflection.AssemblyProductAttribute("VideoPlatform")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VideoPlatform")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
