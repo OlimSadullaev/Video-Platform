@@ -1,0 +1,27 @@
+﻿@model IEnumerable<VideoPlatform.Models.VideoModel>
+
+<h1>Manage Videos</h1>
+<a asp-action="Create">Add New Video</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var video in Model)
+        {
+            <tr>
+                <td>@video.Title</td>
+                <td>@video.Description</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@video.Id">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@video.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
